@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="icon" href="img/favicon.ico">
+  <title>Stylelook</title>
+<link href="./css/main.min.css" rel="stylesheet"></head>
+<!--head-->
+
+
+<body>
+<div class="wrapper">
+
+	<header class="header">
+
+		<div class="header__top">
+			<div class="container flex">
+				<div class="top__left">
+					<a href="javascript:void(0);" class="burger-btn">
+						<i class="icon-group2"></i>
+					</a>
+					<a href="index.html" class="header__logo">
+						<img src="./img/logo.svg" alt="logo">
+					</a>
+				</div>
+				<div class="top__right">
+					<div class="header__search">
+						<div class="search-form">
+							<a href="javascript:void(0);" class="btn_search"><i class="icon-search-sm"></i></a>
+							<form action="#" class="search-form__item">
+								<button type="button" class="search-form__btn"><i class="icon-search-sm"></i></button>
+								<input autocomplete="off" type="text" name="form[]" data-value="Search " placeholder="Sog blandt 10.990 producter..." class="search-form__input">
+
+<!--								<datalist id="category">-->
+<!--									<option value="Agenir Cosmetics">-->
+<!--									<option value="Agenir Cosmetics">-->
+<!--									<option value="Ageni">-->
+<!--									<option value="Agenir Cosmetics">-->
+<!--								</datalist>-->
+							</form>
+						</div>
+					</div>
+					<ul class="header__top-nav">
+						<li class="top-nav__linc">
+							<a href="#" >
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.79432 7.05575C4.79432 5.80675 5.80732 4.79375 7.05532 4.79375H8.08432C8.68032 4.79375 9.25332 4.55775 9.67732 4.13675L10.3963 3.41675C11.2773 2.53175 12.7093 2.52775 13.5943 3.40875L13.6033 3.41675L14.3233 4.13675C14.7463 4.55775 15.3193 4.79375 15.9163 4.79375H16.9443C18.1933 4.79375 19.2063 5.80675 19.2063 7.05575V8.08275C19.2063 8.68075 19.4423 9.25275 19.8633 9.67675L20.5833 10.3967C21.4683 11.2777 21.4733 12.7087 20.5923 13.5947L20.5833 13.6037L19.8633 14.3237C19.4423 14.7457 19.2063 15.3197 19.2063 15.9157V16.9447C19.2063 18.1937 18.1933 19.2057 16.9443 19.2057H15.9163C15.3193 19.2057 14.7463 19.4427 14.3233 19.8637L13.6033 20.5827C12.7233 21.4687 11.2913 21.4727 10.4053 20.5917C10.4023 20.5887 10.3993 20.5857 10.3963 20.5827L9.67732 19.8637C9.25332 19.4427 8.68032 19.2057 8.08432 19.2057H7.05532C5.80732 19.2057 4.79432 18.1937 4.79432 16.9447V15.9157C4.79432 15.3197 4.55732 14.7457 4.13632 14.3237L3.41732 13.6037C2.53132 12.7227 2.52732 11.2907 3.40832 10.4057L3.41732 10.3967L4.13632 9.67675C4.55732 9.25275 4.79432 8.68075 4.79432 8.08275V7.05575" stroke="#011226" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M9.42999 14.5694L14.57 9.42944" stroke="#011226" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M14.5667 15.3224C14.3667 15.3224 14.1767 15.2424 14.0367 15.1024C13.9667 15.0324 13.9167 14.9424 13.8767 14.8524C13.8367 14.7624 13.8167 14.6734 13.8167 14.5724C13.8167 14.4724 13.8367 14.3724 13.8767 14.2824C13.9167 14.1924 13.9667 14.1124 14.0367 14.0424C14.3167 13.7624 14.8167 13.7624 15.0967 14.0424C15.1667 14.1124 15.2267 14.1924 15.2667 14.2824C15.2967 14.3724 15.3167 14.4724 15.3167 14.5724C15.3167 14.6734 15.2967 14.7624 15.2667 14.8524C15.2267 14.9424 15.1667 15.0324 15.0967 15.1024C14.9567 15.2424 14.7667 15.3224 14.5667 15.3224Z" fill="#011226"/>
+									<path d="M9.42664 10.1828C9.32664 10.1828 9.23664 10.1618 9.14664 10.1218C9.05664 10.0818 8.96664 10.0328 8.89664 9.96277C8.82664 9.88277 8.77664 9.80277 8.73664 9.71277C8.69664 9.62177 8.67664 9.53277 8.67664 9.43277C8.67664 9.33177 8.69664 9.23277 8.73664 9.14277C8.77664 9.05277 8.82664 8.96277 8.89664 8.90277C9.18664 8.62177 9.67664 8.62177 9.95664 8.90277C10.0966 9.04177 10.1766 9.23277 10.1766 9.43277C10.1766 9.53277 10.1666 9.62177 10.1266 9.71277C10.0866 9.80277 10.0266 9.88277 9.95664 9.96277C9.88664 10.0328 9.80664 10.0818 9.71664 10.1218C9.62664 10.1618 9.52664 10.1828 9.42664 10.1828Z" fill="#011226"/>
+								</svg>
+							</a>
+							Tilbud
+						</li>
+						<li class="top-nav__linc "><a href="#" class="btn__like-icon active" ><span>10</span></a>Favorit</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+			<nav class="menu__body">
+				<div class="menu-top-title">
+					<div class="menu-top-title__title">menu</div>
+					<a href="javascript:void(0);" class="btn-close"><i class="icon-clarity_window-close-line"></i> </a>
+				</div>
+				<div class="menu__list-container">
+					<ul class="menu__list">
+						<li class="menu__item ">
+							<a href="https://fontello.com/" class="menu__link sub">Brands</a>
+
+						</li>
+						<li class="menu__item sub">
+							<a href="https://fontello.com/" class="menu__link">Hudpleje</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Udforsk</li>
+											<li class="menu__item"><a href="https://fontello.com/" class="menu__link-sub">Acorelle</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aesop</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">AHAVA</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">A'kin</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alpecin</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårpleje</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alterna</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ameliorate</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">American Crew</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Anthony</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Antipodes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Apivita</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aquis</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hartype</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Archipelago Botanicals</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ardell Lashes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARgENTUM Apothecary</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARK</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aromatherapy Associates</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">As I Am</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aurelia Probiotic Skincare</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</li>
+						<li class="menu__item sub"><a href="javascript:void(0);" class="menu__link">Harpleje</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Udforsk</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Acorelle</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aesop</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">AHAVA</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">A'kin</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alpecin</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårpleje</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alterna</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ameliorate</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">American Crew</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Anthony</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Antipodes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Apivita</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aquis</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hartype</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Archipelago Botanicals</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ardell Lashes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARgENTUM Apothecary</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARK</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aromatherapy Associates</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">As I Am</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aurelia Probiotic Skincare</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item sub"><a href="javascript:void(0);" class="menu__link">Dufte</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item sub"><a href="javascript:void(0);" class="menu__link">Makeup</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item"><a href="#" class="menu__link">Accessories</a></li>
+						<li class="menu__item sub"><a href="#" class="menu__link">Til Ham </a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="#" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="#" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item "><a href="#" class="menu__link">Outlet</a></li>
+
+
+
+					</ul>
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">Gavesaet</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Naturling</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">K-beauty</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Vegansk</a></li>
+					</ul>
+				</div>
+
+			</nav>
+			</div>
+		</div>
+</header>
+
+
+
+	<section class="section filter-page">
+		<div class="container flex">
+			<div class="sidebar">
+
+					<form id="form-control" class="form-control">
+						<h2 class="sidebar__title">Filters<a href="#" class="close-filter"><i class="icon-clarity_window-close-line"></i></a> </h2>
+						<div class="filters">
+							<div class="filters__category">
+								<div class="category__title">Category<a href="#" class="close-filter"><i class="icon-clarity_window-close-line"></i></a></div>
+
+								<div class="filters__block">
+									<div class="scroll-block list">
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Avenir Cosmetics<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check31">
+													<label for="check31"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+												</div>
+											</div>
+										</div>
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Item0<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check33">
+													<label for="check33"><span class="name">Item1</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check34">
+													<label for="check34"><span class="name">Item2</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check35">
+													<label for="check35"><span class="name">Item3</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check36">
+													<label for="check36"><span class="name">Item4</span> <span class="count">(3)</span></label>
+												</div>
+											</div>
+										</div>
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Item01<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check37">
+													<label for="check37"><span class="name">Item1</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check38">
+													<label for="check38"><span class="name">Item2</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check39">
+													<label for="check39"><span class="name">Item3</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check40">
+													<label for="check40"><span class="name">Item4</span> <span class="count">(3)</span></label>
+												</div>
+											</div>
+										</div>
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Item02<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check42">
+													<label for="check42"><span class="name">Item1</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check43">
+													<label for="check43"><span class="name">Item2</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check44">
+													<label for="check44"><span class="name">Item3</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check45">
+													<label for="check45"><span class="name">Item4</span> <span class="count">(3)</span></label>
+												</div>
+											</div>
+										</div>
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Item03<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check52">
+													<label for="check52"><span class="name">Item1</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check53">
+													<label for="check53"><span class="name">Item2</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check54">
+													<label for="check54"><span class="name">Item3</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check55">
+													<label for="check55"><span class="name">Item4</span> <span class="count">(3)</span></label>
+												</div>
+											</div>
+										</div>
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Item04<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check62">
+													<label for="check62"><span class="name">Item1</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check63">
+													<label for="check63"><span class="name">Item2</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check64">
+													<label for="check64"><span class="name">Item3</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check65">
+													<label for="check65"><span class="name">Item4</span> <span class="count">(3)</span></label>
+												</div>
+											</div>
+										</div>
+										<div class="filters__category-sub">
+											<div class="category__title-sub">Item05<span class="count">(34)</span></div>
+											<div class="filters__block-sub">
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check72">
+													<label for="check72"><span class="name">Item1</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check73">
+													<label for="check73"><span class="name">Item2</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check74">
+													<label for="check74"><span class="name">Item3</span> <span class="count">(3)</span></label>
+												</div>
+												<div class="filters__checkbox">
+													<input type="checkbox" class="custom-checkbox" id="check75">
+													<label for="check75"><span class="name">Item4</span> <span class="count">(3)</span></label>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+							<div class="filters__category" id="form-3">
+								<div class="category__title">
+									Brand
+									<div  class="result form-1"><span  class="form-sum form-3-sum">(0)</span></div>
+									<a href="#" class="close-filter"><i class="icon-clarity_window-close-line"></i></a></div>
+								<div class="filters__block">
+									<div class="filters__filter-search">
+										<div class="filter-search__input">
+											<input type="text" placeholder="Search brand">
+											<button type="button" class="search-btn"><i class="icon-search-sm"></i> </button>
+										</div>
+									</div>
+									<div class="scroll-block">
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check1" name="name-3">
+											<label for="check1"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check2" name="name-3">
+											<label for="check2"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check3" name="name-3">
+											<label for="check3"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check4" name="name-3">
+											<label for="check4"><span class="name">Eclair</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check5" name="name-3">
+											<label for="check5"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check6" name="name-3">
+											<label for="check6"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check7" name="name-3">
+											<label for="check7"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check8" name="name-3">
+											<label for="check8"><span class="name">Eclair</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check9" name="name-3">
+											<label for="check9"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check10" name="name-3">
+											<label for="check10"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="filters__category" id="form-1">
+								<div class="category__title">
+									Hartype
+									<div  class="result form-1"><span  class="form-sum form-1-sum">(0)</span></div>
+							<!--		<div  class="form-1"><b>(<span  class="form-1-sum"></span>)</b></div>-->
+									<a href="#" class="close-filter"><i class="icon-clarity_window-close-line"></i></a></div>
+
+								<div class="filters__block">
+									<div class="scroll-block">
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox " id="check11" name="name-1">
+											<label for="check11"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check12" name="name-1">
+											<label for="check12"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check13" name="name-1">
+											<label for="check13"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check14" name="name-1">
+											<label for="check14"><span class="name">Eclair</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check15" name="name-1">
+											<label for="check15"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check16" name="name-1">
+											<label for="check16"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check17" name="name-1">
+											<label for="check17"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check18" name="name-1">
+											<label for="check18"><span class="name">Eclair</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check19" name="name-1">
+											<label for="check19"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check20" name="name-1">
+											<label for="check20"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="filters__category" id="form-2">
+								<div class="category__title">
+									Hadtype
+									<div  class="result form-2"><span  class="form-sum form-2-sum">(0)</span></div>
+									<a href="#" class="close-filter"><i class="icon-clarity_window-close-line"></i></a></div>
+
+								<div class="filters__block">
+									<div class="scroll-block">
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check21" name="name-2">
+											<label for="check21"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check22" name="name-2">
+											<label for="check22"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check23" name="name-2">
+											<label for="check23"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check24" name="name-2">
+											<label for="check24"><span class="name">Eclair</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check25" name="name-2">
+											<label for="check25"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check26" name="name-2">
+											<label for="check26"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check27" name="name-2">
+											<label for="check27"><span class="name">Estel Professional</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check28" name="name-2">
+											<label for="check28"><span class="name">Eclair</span> <span class="count">(3)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check29" name="name-2">
+											<label for="check29"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+										<div class="filters__checkbox">
+											<input type="checkbox" class="custom-checkbox" id="check30" name="name-2">
+											<label for="check30"><span class="name">Avenir Cosmetics</span> <span class="count">(34)</span></label>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="filters__category active">
+								<div class="category__title">
+									Pris
+									<div class="result">( <span id="result_1"></span> - <span id="result_2"></span>  DKR)</div>
+									<a href="#" class="close-filter">
+										<i class="icon-clarity_window-close-line"></i>
+									</a>
+								</div>
+
+								<div class="filters__block">
+									<div class="filters__range">
+										<div class="price__slider">
+
+											<input type="text" id="price-range" name="example_name" value=""  class="price-range"/>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="filter-page__control control__slider">
+								<div class="control__label bold">Produkt pakker</div>
+								<div class="checkbox">
+									<input type="checkbox" id="unchecked2" class="checkbox-input"/>
+									<label for="unchecked2" class="checkbox-label"></label>
+								</div>
+
+							</div>
+							<div class="filter-page__control control__slider">
+								<div class="control__label bold">Kun på lager</div>
+								<div class="checkbox">
+									<input type="checkbox" id="unchecked3" class="checkbox-input"/>
+									<label for="unchecked3" class="checkbox-label"></label>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="btn-block">
+
+							<a href="#" class="btn"><span class="btn-text">Vis producter</span> <span class="form-4-sum">(0)</span></a>
+						</div>
+
+					</form>
+
+			</div>
+			<div class="filter-page__content">
+				<div class="filter-page__content-top">
+					<h2 class="section__title">Udvalgte produkter.</h2>
+					<div class="filter-page__info">
+							<span class="complete">
+								Mange af os køber design som tøj og boligtilbehør online. Hører du også til blandt de mange mænd
+								og kvinder, der shopper løs på nette...
+								<span class="read_more"> View more</span>
+							</span>
+						 <span class="complete-hide">
+							 Mange af os køber design som tøj og boligtilbehør online. Hører du også til blandt de mange mænd og
+							 kvinder, der shopper løs på nettet, kan du med sikkerhed drage fordel af Katoni. Hvorfor, spørger
+							 du måske? Fordi Katoni er en shoppingplatform, hvor nogle af de bedste danske og udenlandske
+							 online shops er samlet.
+						</span>
+					</div>
+					<div class="filter-page__sort">
+						<div class="sort__found">510 producter found</div>
+						<div class="flex">
+							<div class="filter-page__control control-checkbox">
+								<div class="checkbox">
+									<input type="checkbox" id="unchecked" class="checkbox-input"/>
+									<label for="unchecked" class="checkbox-label"></label>
+								</div>
+								<div class="control__label bold">UDSALG</div>
+							</div>
+							<div class="filter-page__control">
+								<div class="control__label">Sort by</div>
+
+								<div class="select-block">
+									<div class="select">
+
+										<div class="select__head">Popularity</div>
+										<ul class="select__list" style="display: none;">
+											<li class="select__item" data-filter="popularity">Popularity</li>
+											<li class="select__item" data-filter="discount">Discount</li>
+											<li class="select__item" data-filter="brand">Brand</li>
+											<li class="select__item" data-filter="">Popularity</li>
+											<li class="select__item" data-filter="">Discount</li>
+											<li class="select__item" data-filter="">Brand</li>
+										</ul>
+									</div>
+<!--									<div class="select-block__select" data-state="">-->
+<!--										<div class="select__title" data-default="Option 0">Popularity</div>-->
+<!--										<div class="select__content" id="filter">-->
+<!--											<input id="singleSelect0" class="select__input" type="radio" name="singleSelect"   checked />-->
+<!--											<label for="singleSelect0" class="select__label" data-filter="popularity">Popularity</label>-->
+<!--											<input id="singleSelect1" class="select__input" type="radio" name="singleSelect" data-filter="brand"/>-->
+<!--											<label for="singleSelect1" class="select__label" data-filter="discount">Discount</label>-->
+<!--											<input id="singleSelect3" class="select__input" type="radio" name="singleSelect" />-->
+<!--											<label for="singleSelect3" class="select__label" data-filter="brand">Brand</label>-->
+
+
+<!--										</div>-->
+<!--									</div>-->
+								</div>
+							</div>
+							<div class="filter-page__control open-sidebar">
+								<a href="javascript:void(0);" class="open-sidebar__btn ">Filtering<span class="form-sum form-4-sum">(0)</span></a>
+								<img src="img/Filter.png" alt="img">
+
+							</div>
+						</div>
+					</div>
+					<div class="filter-page__clear">
+					</div>
+					<div class="select-item-wrap">
+
+
+						<div class="sel-item" data-id-fields="check23" style="display: none;">Eclair <span class="del-sel-item"><i class="icon-close"></i></span></div><span class="clear_all_filter" data-clear="all"><img src="img/clear.png" alt="#"> Clear all filters</span>
+					</div>
+					<div class="filter-page__result" id="items">
+						<div class="result-container">
+							<div class="slider-card__card-product item " data-cat="popularity">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+							<div class="slider-card__card-product item" data-cat="brand">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card2.webp" type="image/webp">
+											<img src="img/card2.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">THE BALM</div>
+										<div class="description__text">The Balm Mary-Lou Manizer Aka "The Luminizer" Highlighter</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<div class="btn-many-shops">
+										<div class="bottom__list-linc">
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">178,00 DKR</div>
+													<div class="price__old">189,00 DKR</div>
+												</div>
+												<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">cocopanda.dk<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+										</div>
+										<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="slider-card__card-product item" data-cat="popularity" >
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+							<div class="slider-card__card-product item" data-cat="brand">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card2.webp" type="image/webp">
+											<img src="img/card2.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">THE BALM</div>
+										<div class="description__text">The Balm Mary-Lou Manizer Aka "The Luminizer" Highlighter</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<div class="btn-many-shops">
+										<div class="bottom__list-linc">
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">178,00 DKR</div>
+													<div class="price__old">189,00 DKR</div>
+												</div>
+												<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">cocopanda.dk<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+										</div>
+										<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="slider-card__card-product item" data-cat="popularity">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+							<div class="slider-card__card-product item" data-cat="discount">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card2.webp" type="image/webp">
+											<img src="img/card2.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">THE BALM</div>
+										<div class="description__text">The Balm Mary-Lou Manizer Aka "The Luminizer" Highlighter</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<div class="btn-many-shops">
+										<div class="bottom__list-linc">
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">178,00 DKR</div>
+													<div class="price__old">189,00 DKR</div>
+												</div>
+												<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">cocopanda.dk<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+											<a href="#" target="_blank" class="list-linc__linc">
+												<div class="card-product__price">
+													<div class="price__new-discount">247,90 DKR</div>
+													<div class="price__old">566,00 DKR</div>
+												</div>
+												<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+												<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+											</a>
+										</div>
+										<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="slider-card__card-product item " data-cat="brand">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+							<div class="slider-card__card-product item " data-cat="brand">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+
+							<div class="slider-card__card-product item " data-cat="brand">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+							<div class="slider-card__card-product item " data-cat="brand">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+
+							<div class="slider-card__card-product item" data-cat="discount">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+							<div class="slider-card__card-product item " data-cat="discount">
+								<div class="card-product__container">
+									<div class="card-product__site">
+										<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+									</div>
+									<div class="card-product__img">
+										<picture>
+											<source srcset="img/card1.webp" type="image/webp">
+											<img src="img/card1.png" alt="img">
+										</picture>
+									</div>
+									<div class="card-product__description">
+										<div class="card-product__item">
+											<div class="card-product__discount">-30%</div>
+											<button class="card-product__like-icon" type="button"></button>
+										</div>
+										<div class="description__title">Redken lorem ipsum dolor</div>
+										<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+									</div>
+									<div class="card-product__price">
+										<div class="price__new-discount">178,00 DKR</div>
+										<div class="price__old">189,00 DKR</div>
+									</div>
+								</div>
+								<div class="card-product__bottom">
+									<a href="#" class="btn-one-shop">Gå til butik</a>
+								</div>
+							</div>
+						</div>
+
+						<ul class="pagination">
+							<li class="page-item prev">
+								<a class="page-link" href="#">
+									<i class="icon-angle-left"></i>
+								</a>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item active"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">4</a></li>
+							<li class="page-item"><a class="page-link" href="#">5</a></li>
+							<li class="page-item disabled">
+								<span class="extend page-link">...</span>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">35</a></li>
+							<li class="page-item next">
+								<a class="page-link" href="#">
+									<i class="icon-angle-right"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+	</section>
+
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__body">
+			<div class="footer__main ">
+				<div class="logo-block">
+					<a href="home.html" class="footer__logo"><img src="./img/logo.svg" alt="logo"></a>
+					<div class="bottom__text">©2020 StyleCloud.dk | All rights reserved</div>
+				</div>
+
+				<div class="flex">
+					<div class="menu-footer__list">
+						<div class="list__title">Company</div>
+						<ul>
+							<li class="menu-footer__link"><a href="#" >Min konto</a></li>
+							<li class="menu-footer__link"><a href="#" >Forretningsbetingelser</a></li>
+							<li class="menu-footer__link"><a href="#" >Kundeservice</a></li>
+							<li class="menu-footer__link"><a href="#" >Levering</a></li>
+							<li class="menu-footer__link"><a href="#" >Blog</a></li>
+							<li class="menu-footer__link"><a href="#" >Om os</a></li>
+						</ul>
+					</div>
+					<div class="menu-footer__list">
+						<div class="list__title">Contact</div>
+						<ul>
+							<li class="menu-footer__link"><a href="#" >stylelook.dk</a></li>
+							<li class="menu-footer__link">Møgelhøj 88520 Lystrup</li>
+							<li class="menu-footer__link"><a href="tel:78745306" >Tel: 78 74 53 06</a></li>
+							<li class="menu-footer__link"><a href="mailto:mail@stylelook.dk" >mail@stylelook.dk</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="bottom__text">©2020 StyleCloud.dk | All rights reserved</div>
+		</div>
+	</div>
+</footer>
+
+
+</div>
+<script src="./libs/js/jquery-3.6.0.min.js"></script>
+<script src="./libs/js/slick.min.js"></script>
+<script src="./libs/js/ion.rangeSlider.min.js"></script>
+<script src="./js/main.min.js"></script></body>
+</html>
+

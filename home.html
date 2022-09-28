@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="icon" href="img/favicon.ico">
+  <title>Stylelook</title>
+<link href="./css/main.min.css" rel="stylesheet"></head>
+<!--head-->
+
+
+<body>
+<div class="wrapper">
+	<div class="popup-bg"></div>
+	<header class="header">
+
+		<div class="header__top">
+			<div class="container flex">
+				<div class="top__left">
+					<a href="javascript:void(0);" class="burger-btn">
+						<i class="icon-group2"></i>
+					</a>
+					<a href="index.html" class="header__logo">
+						<img src="./img/logo.svg" alt="logo">
+					</a>
+				</div>
+				<div class="top__right">
+					<div class="header__search">
+						<div class="search-form">
+							<a href="javascript:void(0);" class="btn_search"><i class="icon-search-sm"></i></a>
+							<form action="#" class="search-form__item">
+								<button type="button" class="search-form__btn"><i class="icon-search-sm"></i></button>
+								<input autocomplete="off" type="text" name="form[]" data-value="Search " placeholder="Sog blandt 10.990 producter..." class="search-form__input">
+
+<!--								<datalist id="category">-->
+<!--									<option value="Agenir Cosmetics">-->
+<!--									<option value="Agenir Cosmetics">-->
+<!--									<option value="Ageni">-->
+<!--									<option value="Agenir Cosmetics">-->
+<!--								</datalist>-->
+							</form>
+						</div>
+					</div>
+					<ul class="header__top-nav">
+						<li class="top-nav__linc">
+							<a href="#" >
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.79432 7.05575C4.79432 5.80675 5.80732 4.79375 7.05532 4.79375H8.08432C8.68032 4.79375 9.25332 4.55775 9.67732 4.13675L10.3963 3.41675C11.2773 2.53175 12.7093 2.52775 13.5943 3.40875L13.6033 3.41675L14.3233 4.13675C14.7463 4.55775 15.3193 4.79375 15.9163 4.79375H16.9443C18.1933 4.79375 19.2063 5.80675 19.2063 7.05575V8.08275C19.2063 8.68075 19.4423 9.25275 19.8633 9.67675L20.5833 10.3967C21.4683 11.2777 21.4733 12.7087 20.5923 13.5947L20.5833 13.6037L19.8633 14.3237C19.4423 14.7457 19.2063 15.3197 19.2063 15.9157V16.9447C19.2063 18.1937 18.1933 19.2057 16.9443 19.2057H15.9163C15.3193 19.2057 14.7463 19.4427 14.3233 19.8637L13.6033 20.5827C12.7233 21.4687 11.2913 21.4727 10.4053 20.5917C10.4023 20.5887 10.3993 20.5857 10.3963 20.5827L9.67732 19.8637C9.25332 19.4427 8.68032 19.2057 8.08432 19.2057H7.05532C5.80732 19.2057 4.79432 18.1937 4.79432 16.9447V15.9157C4.79432 15.3197 4.55732 14.7457 4.13632 14.3237L3.41732 13.6037C2.53132 12.7227 2.52732 11.2907 3.40832 10.4057L3.41732 10.3967L4.13632 9.67675C4.55732 9.25275 4.79432 8.68075 4.79432 8.08275V7.05575" stroke="#011226" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M9.42999 14.5694L14.57 9.42944" stroke="#011226" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M14.5667 15.3224C14.3667 15.3224 14.1767 15.2424 14.0367 15.1024C13.9667 15.0324 13.9167 14.9424 13.8767 14.8524C13.8367 14.7624 13.8167 14.6734 13.8167 14.5724C13.8167 14.4724 13.8367 14.3724 13.8767 14.2824C13.9167 14.1924 13.9667 14.1124 14.0367 14.0424C14.3167 13.7624 14.8167 13.7624 15.0967 14.0424C15.1667 14.1124 15.2267 14.1924 15.2667 14.2824C15.2967 14.3724 15.3167 14.4724 15.3167 14.5724C15.3167 14.6734 15.2967 14.7624 15.2667 14.8524C15.2267 14.9424 15.1667 15.0324 15.0967 15.1024C14.9567 15.2424 14.7667 15.3224 14.5667 15.3224Z" fill="#011226"/>
+									<path d="M9.42664 10.1828C9.32664 10.1828 9.23664 10.1618 9.14664 10.1218C9.05664 10.0818 8.96664 10.0328 8.89664 9.96277C8.82664 9.88277 8.77664 9.80277 8.73664 9.71277C8.69664 9.62177 8.67664 9.53277 8.67664 9.43277C8.67664 9.33177 8.69664 9.23277 8.73664 9.14277C8.77664 9.05277 8.82664 8.96277 8.89664 8.90277C9.18664 8.62177 9.67664 8.62177 9.95664 8.90277C10.0966 9.04177 10.1766 9.23277 10.1766 9.43277C10.1766 9.53277 10.1666 9.62177 10.1266 9.71277C10.0866 9.80277 10.0266 9.88277 9.95664 9.96277C9.88664 10.0328 9.80664 10.0818 9.71664 10.1218C9.62664 10.1618 9.52664 10.1828 9.42664 10.1828Z" fill="#011226"/>
+								</svg>
+							</a>
+							Tilbud
+						</li>
+						<li class="top-nav__linc "><a href="#" class="btn__like-icon active" ><span>10</span></a>Favorit</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+			<nav class="menu__body">
+				<div class="menu-top-title">
+					<div class="menu-top-title__title">menu</div>
+					<a href="javascript:void(0);" class="btn-close"><i class="icon-clarity_window-close-line"></i> </a>
+				</div>
+				<div class="menu__list-container">
+					<ul class="menu__list">
+						<li class="menu__item ">
+							<a href="https://fontello.com/" class="menu__link sub">Brands</a>
+
+						</li>
+						<li class="menu__item sub">
+							<a href="https://fontello.com/" class="menu__link">Hudpleje</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Udforsk</li>
+											<li class="menu__item"><a href="https://fontello.com/" class="menu__link-sub">Acorelle</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aesop</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">AHAVA</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">A'kin</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alpecin</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårpleje</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alterna</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ameliorate</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">American Crew</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Anthony</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Antipodes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Apivita</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aquis</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hartype</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Archipelago Botanicals</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ardell Lashes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARgENTUM Apothecary</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARK</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aromatherapy Associates</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">As I Am</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aurelia Probiotic Skincare</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</li>
+						<li class="menu__item sub"><a href="javascript:void(0);" class="menu__link">Harpleje</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Udforsk</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Acorelle</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aesop</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">AHAVA</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">A'kin</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alchimie Forever</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Algenist</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alpecin</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårpleje</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Alterna</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ameliorate</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">American Crew</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Anthony</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Antipodes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Apivita</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aquis</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hartype</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Archipelago Botanicals</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Ardell Lashes</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARgENTUM Apothecary</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">ARK</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aromatherapy Associates</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">As I Am</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aurelia Probiotic Skincare</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item sub"><a href="javascript:void(0);" class="menu__link">Dufte</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item sub"><a href="javascript:void(0);" class="menu__link">Makeup</a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="javascript:void(0);" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="javascript:void(0);" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item"><a href="#" class="menu__link">Accessories</a></li>
+						<li class="menu__item sub"><a href="#" class="menu__link">Til Ham </a><i class="icon-angle-right open-sub"></i>
+							<div class="menu__sub-list">
+								<div class="list-container">
+									<div class="menu-top-title">
+										<a href="#" class="btn-back-sub"><i class="icon-left-small"></i> </a>
+										<div class="menu-top-title__title">makeup</div>
+										<a href="#" class="btn-close-sub"><i class="icon-clarity_window-close-line"></i> </a>
+									</div>
+									<div class="menu__list-container">
+										<ul>
+											<li  class="menu__item title">Hårstyling</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+										<ul>
+											<li  class="menu__item title">Populære Mærker</li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Australian Bodycare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avant Skincare</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveda Men</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Aveeno</a></li>
+											<li class="menu__item"><a href="#" class="menu__link-sub">Avéne</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div></li>
+						<li class="menu__item "><a href="#" class="menu__link">Outlet</a></li>
+
+
+
+					</ul>
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">Gavesaet</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Naturling</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">K-beauty</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Vegansk</a></li>
+					</ul>
+				</div>
+
+			</nav>
+			</div>
+		</div>
+</header>
+
+
+	<section class="section banner">
+		<div class="container flex">
+			<div class="banner__card" style="background-image: url(img/image2.png)">
+				<div class="card__logo"><img src="img/logo.svg" alt="img"></div>
+				<div class="card__name">Lorem ipsum dolor sit amet etc</div>
+				<a href="#" class="btn">Køb her</a>
+			</div>
+			<div class="banner__card" style="background-image: url(img/image3.png)">
+				<div class="card__logo"><img src="img/logo.svg" alt="img"></div>
+				<div class="card__name">Lorem ipsum dolor sit amet etc</div>
+				<a href="#" class="btn">Køb her</a>
+			</div>
+			<div class="section__category">
+				<div class="category__top">
+					<div class="category__title">Populære brands & kategorier.</div>
+					<ul class="tabs__caption">
+						<li><a href="#panel1" class="tabs__link active">Brands</a></li>
+						<li><a href="#panel2" class="tabs__link">Kategorier</a></li>
+					</ul>
+				</div>
+				<div class="tab-container">
+					<div id="panel1" class="tabs__content active">
+						<a href="#" class="category__link">
+							<picture>
+								<source srcset="img/brand1.webp" type="image/webp">
+								<img src="img/brand1.png" alt="img">
+							</picture>
+						</a>
+						<a href="#" class="category__link">
+							<picture>
+								<source srcset="img/brand2.webp" type="image/webp">
+								<img src="img/brand2.png" alt="img">
+							</picture>
+						</a>
+						<a href="#" class="category__link">
+							<picture>
+								<source srcset="img/brand3.webp" type="image/webp">
+								<img src="img/brand3.png" alt="img">
+							</picture>
+						</a>
+						<a href="#" class="category__link">
+							<picture>
+								<source srcset="img/brand1.webp" type="image/webp">
+								<img src="img/brand1.png" alt="img">
+							</picture>
+						</a>
+						<a href="#" class="category__link">
+							<picture>
+								<source srcset="img/brand2.webp" type="image/webp">
+								<img src="img/brand2.png" alt="img">
+							</picture>
+						</a>
+						<a href="#" class="category__link">
+							<picture>
+								<source srcset="img/brand3.webp" type="image/webp">
+								<img src="img/brand3.png" alt="img">
+							</picture>
+						</a>
+					</div>
+					<div id="panel2" class="tabs__content">
+						<a href="#" class="category__link">
+							Category
+						</a>
+						<a href="#" class="category__link">
+							Category
+						</a>
+						<a href="#" class="category__link">
+							Category
+						</a>
+						<a href="#" class="category__link">
+							Category
+						</a>
+						<a href="#" class="category__link">
+							Category
+						</a>
+						<a href="#" class="category__link">
+							Category
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section slider-card">
+		<div class="container">
+			<h2 class="section__title">Udvalgte produkter.</h2>
+
+			<div class="slider-card__slider">
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card1.webp" type="image/webp">
+									<img src="img/card1.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">Redken lorem ipsum dolor</div>
+								<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+							</div>
+							<div class="card-product__price">
+								<div class="price__new-discount">178,00 DKR</div>
+								<div class="price__old">189,00 DKR</div>
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<a href="#" class="btn-one-shop">Gå til butik</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card2.webp" type="image/webp">
+									<img src="img/card2.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">THE BALM</div>
+								<div class="description__text">The Balm Mary-Lou Manizer Aka "The Luminizer" Highlighter</div>
+							</div>
+							<div class="card-product__price">
+								<div class="price__new-discount">178,00 DKR</div>
+								<div class="price__old">189,00 DKR</div>
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<div class="btn-many-shops">
+								<div class="bottom__list-linc">
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">178,00 DKR</div>
+											<div class="price__old">189,00 DKR</div>
+										</div>
+										<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">cocopanda.dk<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+								</div>
+								<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card1.webp" type="image/webp">
+									<img src="img/card1.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">Redken lorem ipsum dolor</div>
+								<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+							</div>
+							<div class="card-product__price">
+								178,00 - 256,90 DKR
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<div class="btn-many-shops">
+								<div class="bottom__list-linc">
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">178,00 DKR</div>
+											<div class="price__old">189,00 DKR</div>
+										</div>
+										<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">cocopanda.dk<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">247,90 DKR</div>
+											<div class="price__old">566,00 DKR</div>
+										</div>
+										<div class="site-linc">makeup.com.ua<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+								</div>
+								<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card2.webp" type="image/webp">
+									<img src="img/card2.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">Redken lorem ipsum dolor</div>
+								<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+							</div>
+							<div class="card-product__price">
+								<div class="price__new-discount">178,00 DKR</div>
+								<div class="price__old">189,00 DKR</div>
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<a href="#" class="btn-one-shop">Gå til butik</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card1.webp" type="image/webp">
+									<img src="img/card1.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">Redken lorem ipsum dolor</div>
+								<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+							</div>
+							<div class="card-product__price">
+								<div class="price__new-discount">178,00 DKR</div>
+								<div class="price__old">189,00 DKR</div>
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<div class="btn-many-shops">
+								<div class="bottom__list-linc">
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">178,00 DKR</div>
+											<div class="price__old">189,00 DKR</div>
+										</div>
+										<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+								</div>
+								<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card1.webp" type="image/webp">
+									<img src="img/card1.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">Redken lorem ipsum dolor</div>
+								<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+							</div>
+							<div class="card-product__price">
+								<div class="price__new-discount">178,00 DKR</div>
+								<div class="price__old">189,00 DKR</div>
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<a href="#" class="btn-one-shop">Gå til butik</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="slider-card__card-product">
+						<div class="card-product__container">
+							<div class="card-product__site">
+								<a href="#" target="_blank" class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></a>
+							</div>
+							<div class="card-product__img">
+								<picture>
+									<source srcset="img/card1.webp" type="image/webp">
+									<img src="img/card1.png" alt="img">
+								</picture>
+							</div>
+							<div class="card-product__description">
+								<div class="card-product__item">
+									<div class="card-product__discount">-30%</div>
+									<button class="card-product__like-icon" type="button"></button>
+								</div>
+								<div class="description__title">Redken lorem ipsum dolor</div>
+								<div class="description__text">Extreme Strength Builder Plus 250ml</div>
+							</div>
+							<div class="card-product__price">
+								<div class="price__new-discount">178,00 DKR</div>
+								<div class="price__old">189,00 DKR</div>
+							</div>
+						</div>
+						<div class="card-product__bottom">
+							<div class="btn-many-shops">
+								<div class="bottom__list-linc">
+									<a href="#" target="_blank" class="list-linc__linc">
+										<div class="card-product__price">
+											<div class="price__new-discount">178,00 DKR</div>
+											<div class="price__old">189,00 DKR</div>
+										</div>
+										<div class="site-linc">Spartoo.dk<i class="icon-bx_bx-link-external"></i></div>
+										<div class="list-linc__circle"><i class="icon-right-small"></i></div>
+									</a>
+								</div>
+								<div class="btn-many-shops__open"><span class="text-open">View stores</span><span class="text-down">Hide stores</span><i class="icon-left-arrow"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section content">
+		<div class="container flex">
+			<h2 class="section__title">Velkommen til en verden af design - alt samlet ét sted</h2>
+			<div class="content__col">
+				<h3 class="content__title">Velkommen til en verden af design - alt samlet ét sted</h3>
+				<p>
+					Mange af os køber design som tøj og boligtilbehør online. Hører du også til blandt de mange mænd og
+					kvinder, der shopper løs på nettet, kan du med sikkerhed drage fordel af Katoni. Hvorfor, spørger du
+					måske? Fordi Katoni er en shoppingplatform, hvor nogle af de bedste danske og udenlandske online
+					shops er samlet.
+				</p>
+				<br>
+				<p>
+					Og ved at samle mange virtuelle butikker under ét tag får du nemt et overblik over nettets store
+					udvalg - og ikke mindst, hvor du shopper dine nye køb til de bedste priser.<br>
+				</p>
+				<br>
+				<p>
+					Af den grund er Katoni hjemstedet for en af de største online samlinger af tøj, og her finder
+					du alt, hvad dit hjerte måtte begære. Uanset om det er det nyeste modetøj, fedt sportstøj,
+					designertøj til reducerede priser eller masser af billigt tøj, er Katoni stedet, hvor du finder
+					det hele. Tøjudvalget består af alt lige fra kjoler, nederdele, shorts, T-shirts og toppe til
+					jeans, chinos, tights, trøjer og jakker. Og så lidt til. Mange af os køber design som tøj og
+					boligtilbehør online. Hører du også til blandt de mange mænd og kvinder, der shopper løs på
+					nettet, kan du med sikkerhed drage fordel af Katoni. Hvorfor, spørger du måske? Fordi Katoni
+					er en shoppingplatform, hvor nogle af de bedste danske og udenlandske online shops er samlet.
+				</p>
+			</div>
+			<div class="content__col ">
+				<h3 class="content__title">Velkommen til en verden af design - alt samlet ét sted</h3>
+				<ul>
+					<li>
+						Mange af os køber design som tøj og boligtilbehør online. Hører du også til blandt de mange mænd og
+						kvinder, der shopper løs på nettet, kan du med sikkerhed drage fordel af Katoni.
+					</li>
+					<li>
+						Hvorfor, spørger du måske? Fordi Katoni er en shoppingplatform, hvor nogle af de bedste danske og
+						udenlandske online shops er samlet.
+					</li>
+					<li>
+						Og ved at samle mange virtuelle butikker under ét tag får du nemt et overblik over nettets store
+						udvalg - og ikke mindst, hvor du shopper dine nye køb til de bedste priser.
+					</li>
+				</ul>
+				<p>
+					Mange af os køber design som tøj og boligtilbehør online. Hører du også til blandt de
+					mange mænd og kvinder, der shopper løs på nettet, kan du med sikkerhed drage fordel af Katoni.
+					Hvorfor, spørger du måske? Fordi Katoni er en shoppingplatform, hvor nogle af de bedste danske
+					og udenlandske online shops er samlet.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="section banner-form">
+		<div class="container">
+			<div class="formBg left">
+				<picture>
+					<source srcset="img/image4.webp" type="image/webp">
+					<img src="img/image4.png" alt="img">
+				</picture>
+			</div>
+			<div class="form-container">
+				<div class="banner-form__img">
+					<i class="icon-send"></i>
+				</div>
+				<h2 class="section__title">Sign up to our newsletter</h2>
+				<div class="banner-form__text">
+					Følg nyhedsbrevet og få viden, tips og tricks om hårprodukter og styling samt særlige nyhedsbrev-tilbud.
+				</div>
+				<div class="banner-form__form">
+					<form>
+						<input type="text" placeholder="Enter your email">
+						<button type="button" class="btn">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<div class="formBg right">
+				<picture>
+					<source srcset="img/image5.webp" type="image/webp">
+					<img src="img/image5.png" alt="img">
+				</picture>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__body">
+			<div class="footer__main ">
+				<div class="logo-block">
+					<a href="home.html" class="footer__logo"><img src="./img/logo.svg" alt="logo"></a>
+					<div class="bottom__text">©2020 StyleCloud.dk | All rights reserved</div>
+				</div>
+
+				<div class="flex">
+					<div class="menu-footer__list">
+						<div class="list__title">Company</div>
+						<ul>
+							<li class="menu-footer__link"><a href="#" >Min konto</a></li>
+							<li class="menu-footer__link"><a href="#" >Forretningsbetingelser</a></li>
+							<li class="menu-footer__link"><a href="#" >Kundeservice</a></li>
+							<li class="menu-footer__link"><a href="#" >Levering</a></li>
+							<li class="menu-footer__link"><a href="#" >Blog</a></li>
+							<li class="menu-footer__link"><a href="#" >Om os</a></li>
+						</ul>
+					</div>
+					<div class="menu-footer__list">
+						<div class="list__title">Contact</div>
+						<ul>
+							<li class="menu-footer__link"><a href="#" >stylelook.dk</a></li>
+							<li class="menu-footer__link">Møgelhøj 88520 Lystrup</li>
+							<li class="menu-footer__link"><a href="tel:78745306" >Tel: 78 74 53 06</a></li>
+							<li class="menu-footer__link"><a href="mailto:mail@stylelook.dk" >mail@stylelook.dk</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="bottom__text">©2020 StyleCloud.dk | All rights reserved</div>
+		</div>
+	</div>
+</footer>
+
+
+</div>
+<script src="./libs/js/jquery-3.6.0.min.js"></script>
+<script src="./libs/js/slick.min.js"></script>
+<script src="./libs/js/ion.rangeSlider.min.js"></script>
+<script src="./js/main.min.js"></script></body>
+</html>
